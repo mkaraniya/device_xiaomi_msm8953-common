@@ -15,7 +15,6 @@
 #
 
 $(call inherit-product, vendor/xiaomi/msm8953-common/msm8953-common-vendor.mk)
-$(call inherit-product-if-exists, vendor/gapps/common/common-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
